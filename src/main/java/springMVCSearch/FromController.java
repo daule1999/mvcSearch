@@ -12,6 +12,10 @@ public class FromController {
 	public String form() {
 		return "complex-form";
 	}
+	@RequestMapping("/newform")
+	public String form() {
+		return "complex-form";
+	}
 	
 	@PostMapping("/handle")
 	public String handle(@ModelAttribute("student") Student student) {
