@@ -13,7 +13,7 @@ public class FromController {
 		return "complex-form";
 	}
 	@RequestMapping("/newform")
-	public String form() {
+	public String newform() {
 		return "complex-form";
 	}
 	
